@@ -4,5 +4,5 @@
 ## Checklist
 
 - [ ] `npm run check` passes
-- [ ] No personal names, accounts, machine paths, private projects, or credentials in files or commit metadata
+- [ ] Files contain no personal details (names, accounts, machine paths, private projects) or credentials, and commits use a noreply email
 - [ ] For a changed skill: `metadata.version` bumped, guide and README row current, CHANGELOG line added
