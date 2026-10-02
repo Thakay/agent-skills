@@ -1,8 +1,9 @@
 ---
 name: session-context-close
 description: Preserve decisions, unfinished work, reusable artifacts, and verification state for the next session. Run only when the user explicitly invokes session-context-close to perform the close; never infer invocation from goodbye, wrap-up, handoff, or apparent session endings. Requests to install, explain, edit, or review this skill do not invoke it.
+license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   profile-contract: "1"
 ---
 

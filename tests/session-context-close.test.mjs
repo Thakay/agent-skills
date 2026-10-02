@@ -177,3 +177,8 @@ test('CLI rejects unknown arguments', () => {
   assert.equal(result.stdout, '');
   assert.match(result.stderr, /Usage/);
 });
+
+test('Codex metadata keeps the skill explicit-only', () => {
+  const policy = fs.readFileSync(new URL('../skills/session-context-close/agents/openai.yaml', import.meta.url), 'utf8');
+  assert.match(policy, /policy:\r?\n  allow_implicit_invocation: false/);
+});

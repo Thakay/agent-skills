@@ -1,6 +1,8 @@
 # Validation
 
-## Version 1.0.0
+What was verified for each skill version. Add a section when you verify a new one.
+
+## session-context-close 1.0.0
 
 Verified on Windows with Node.js 24.19.0 and skills CLI 1.7.0:
 

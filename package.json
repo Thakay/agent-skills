@@ -1,14 +1,16 @@
 {
-  "name": "portable-session-skills",
-  "version": "1.0.0",
+  "name": "agent-skills",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "Portable session handoff instructions with external user profiles.",
+  "description": "Portable agent skills for Codex, Claude Code, and other Agent Skills hosts.",
+  "license": "MIT",
   "scripts": {
     "test": "node --test",
-    "verify": "node tools/verify-distribution.mjs"
+    "verify": "node tools/verify-distribution.mjs",
+    "check": "node --test && node tools/verify-distribution.mjs"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   }
 }
