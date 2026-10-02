@@ -1,0 +1,14 @@
+{
+  "name": "portable-session-skills",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable session handoff instructions with external user profiles.",
+  "scripts": {
+    "test": "node --test",
+    "verify": "node tools/verify-distribution.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

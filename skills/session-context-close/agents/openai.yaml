@@ -1,0 +1,7 @@
+interface:
+  display_name: "Session Context Close"
+  short_description: "Preserve session context for a clean handoff"
+  default_prompt: "Use $session-context-close to preserve this session's context and hand off unfinished work."
+
+policy:
+  allow_implicit_invocation: false
