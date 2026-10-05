@@ -11,6 +11,8 @@ Portable agent workflows for Codex, Claude Code, and other [Agent Skills](https:
 |---|---|
 | [session-context-close](docs/session-context-close.md) | Preserves decisions, unfinished work, reusable artifacts, and verification state so the next session can pick up where this one stopped. Runs only when invoked explicitly. |
 
+To keep agent tasks recorded, checked, and committed across sessions, see [SAKO](https://github.com/Thakay/sako), a task ledger and finish gate for coding agents. `uvx sako init` installs its own `sako` skill for Claude Code and Codex.
+
 ## Install
 
 Requires Git and Node.js. List the skills in this collection:
