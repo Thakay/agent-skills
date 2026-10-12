@@ -1,5 +1,9 @@
 # Changes
 
+## Unreleased
+
+- session-context-close 1.1.0: after a compaction, the sweep scans the transcript from before it for what the summary left out, and the transcript stays a source, never a home.
+
 ## 1.1.0
 
 - Public under the MIT license.
