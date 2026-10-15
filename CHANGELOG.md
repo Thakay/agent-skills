@@ -1,6 +1,6 @@
 # Changes
 
-## Unreleased
+## 1.2.0
 
 - cold-read 1.0.0: isolated persona reviews of a document on Claude Code and Codex, with isolation recipe 1, per-run checks for tool calls, turns, stray files, canary phrases and private terms, and an optional private profile with contract version 1.
 - session-context-close 1.1.0: after a compaction, the sweep scans the transcript from before it for what the summary left out, and the transcript stays a source, never a home.

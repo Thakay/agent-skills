@@ -31,7 +31,7 @@ npx skills add Thakay/agent-skills --skill session-context-close --global --agen
 - Use `--agent claude-code` for Claude Code, or name both agents.
 - Omit `--global` to install into the current project only.
 - `--copy` avoids relying on symlink support. Run the installer separately on each operating system or remote host.
-- To pin a release, pass the repository URL with a tag instead of the shorthand, such as `https://github.com/Thakay/agent-skills/tree/v1.1.0`.
+- To pin a release, pass the repository URL with a tag instead of the shorthand, such as `https://github.com/Thakay/agent-skills/tree/v1.2.0`.
 
 Each skill's guide covers how to invoke it on each host and how to customize it.
 
