@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Read"
+  short_description: "Isolated persona reviews of a document on Claude Code and Codex"
+  default_prompt: "Use $cold-read to run isolated cold reads of this document for its target audience."

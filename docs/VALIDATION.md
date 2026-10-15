@@ -2,6 +2,16 @@
 
 What was verified for each skill version. Add a section when you verify a new one.
 
+## cold-read 1.0.0
+
+Verified in WSL Ubuntu with Node.js 24.15.0, Claude Code 2.1.300 and Codex CLI 0.160.0:
+
+- All 30 collection tests passed, 10 of them for cold-read. They cover self-contained prompts, spec validation, Markdown links, the pinned recipe flags, one empty temporary folder per run with a bare Codex home holding only the login file, and failures for a leaked canary, a private term, a tool call, extra turns, stray files and a failed exit.
+- An end-to-end run on a real two-page resume used 4 personas on both CLIs, 8 runs of 25 to 42 seconds each. Every run folder stayed empty, and all 8 runs passed the isolation check with 6 canary phrases and 7 private terms from a private profile.
+- The same resume had been cold-read by hand with the same recipe earlier that day. The skill's verdicts and fit scores agreed with that run within run-to-run noise.
+
+Not verified: the PDF path of `extract.mjs` (the host had no poppler, so the text was extracted separately and passed as a text file), native Windows runs, Codex discovery of this skill, and installation through npx.
+
 ## session-context-close 1.0.0
 
 Verified on Windows with Node.js 24.19.0 and skills CLI 1.7.0:
